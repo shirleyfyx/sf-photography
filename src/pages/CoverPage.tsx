@@ -1,22 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/CoverPage.css';
-import { useNavigate } from 'react-router-dom';
+import useFadeOut from '../components/useFadeOut';
 
 const CoverPage: React.FC = () => {
-  const [fadeOut, setFadeOut] = useState(false);
-  const navigate = useNavigate(); // React Router's hook for navigation
-
-  const handleEnterClick = (event: React.MouseEvent<HTMLDivElement>) => {
-    setFadeOut(true);
-    setTimeout(() => {
-      navigate('/home'); 
-    }, 500); 
-  };
+  const { fadeOut, triggerFadeOut } = useFadeOut('/home', 1000);
 
   return (
     <div className={`coverpage ${fadeOut ? 'fade-out' : ''}`}>
       <h1 className="title">Shirley Fang</h1>
-      <div className="enter" onClick={handleEnterClick}>
+      <div className="enter" onClick={triggerFadeOut}>
         Enter <span className="arrow">→</span>
       </div>
     </div>

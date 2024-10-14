@@ -1,11 +1,17 @@
 import React from 'react';
 import '../styles/HomePage.css';
+import useFadeOut from '../components/useFadeOut';
 
 const HomePage: React.FC = () => {
+  const { fadeOut, triggerFadeOut } = useFadeOut('/', 1000); 
+
   return (
-    <div className="homepage">
-      <h1>Welcome to the Home Page!</h1>
-      <p>Feel free to explore the content.</p>
+    <div className={`homepage ${fadeOut ? 'fade-out' : ''}`}>
+      <header className="header">
+        <div className="back-arrow" onClick={triggerFadeOut}>
+          ←
+        </div>
+      </header>
     </div>
   );
 };
