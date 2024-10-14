@@ -2,14 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import CoverPage from './pages/CoverPage';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
-    <HomePage />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<CoverPage />} />
+        <Route path="/home" element={<HomePage />} />
+        <Route path="*" element={<h1>Page Not Found</h1>} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
