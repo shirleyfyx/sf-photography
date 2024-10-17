@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #FAF0E6;
+}
+  
+.about-me {
+    display: flex;
+    align-items: center;
+    color: #887f74; 
+    font-size:3rem; 
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    padding: 15px;
+    padding-left:75vw;
+    user-select: none;
+    font-family: 'Times New Roman', serif;
+}
+  
+.about-me:hover {
+    color: #37291a; 
+    transform: scale(1.02); 
+    cursor: pointer;
+}

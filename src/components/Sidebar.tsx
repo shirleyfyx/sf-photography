@@ -6,7 +6,7 @@ const Sidebar: React.FC = () => {
   return (
     <div className="sidebar">
       <ul>
-      <li>
+        <li>
           <Link to="/sf-photography/">Home</Link> 
         </li>
         <li>
