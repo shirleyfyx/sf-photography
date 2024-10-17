@@ -1,5 +1,5 @@
 .sidebar {
-  width: 23vw;
+  width: 22vw;
   height: 100vh;
   position: fixed;
   left: 0;
@@ -29,7 +29,7 @@
 .sidebar a {
   color: #6e675e; 
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   transition: color 0.3s ease-in-out;
   display: block; 
   text-align: left;
@@ -40,4 +40,9 @@
 .sidebar a:hover {
   color: #37291a;
   transform: scale(1.05);
+}
+
+.active-link {
+  font-weight: bold; 
+  color: #6e675e; 
 }

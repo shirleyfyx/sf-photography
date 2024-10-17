@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
+import { NavLink, Link } from 'react-router-dom'; 
 import '../styles/Sidebar.css'; 
 
 const Sidebar: React.FC = () => {
@@ -7,16 +7,34 @@ const Sidebar: React.FC = () => {
     <div className="sidebar">
       <ul>
         <li>
-          <Link to="/sf-photography/">Home</Link> 
+          <Link
+            to="/sf-photography/">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/sf-photography/welcome">Welcome</Link> 
+          <NavLink 
+            to="/sf-photography/welcome" 
+            className={({ isActive }) => isActive ? "active-link" : ""}
+          >
+            Welcome
+          </NavLink>
         </li>
         <li>
-          <Link to="/sf-photography/drone">Drone Albums</Link> 
+          <NavLink 
+            to="/sf-photography/drone" 
+            className={({ isActive }) => isActive ? "active-link" : ""}
+          >
+            Drone Albums
+          </NavLink>
         </li>
         <li>
-          <Link to="/sf-photography/digital">Digital Albums</Link> 
+          <NavLink 
+            to="/sf-photography/digital" 
+            className={({ isActive }) => isActive ? "active-link" : ""}
+          >
+            Digital Albums
+          </NavLink>
         </li>
       </ul>
     </div>

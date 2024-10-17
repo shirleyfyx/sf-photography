@@ -6,6 +6,7 @@ import CoverPage from './pages/CoverPage';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import WelcomePage from './pages/WelcomePage';
 import DronePage from './pages/DronePage';
+import DigitalPage from './pages/DigitalPage';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -18,6 +19,7 @@ root.render(
         <Route path="/sf-photography" element={<CoverPage />} />
         <Route path="/sf-photography/welcome" element={<WelcomePage />} />
         <Route path="/sf-photography/drone" element={<DronePage />} />
+        <Route path="/sf-photography/digital" element={<DigitalPage />} />
         <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
     </BrowserRouter>

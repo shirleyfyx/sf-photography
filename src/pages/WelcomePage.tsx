@@ -27,10 +27,10 @@ const WelcomePage: React.FC = () => {
         <h1>Welcome to Shirley's Photography Galleries!</h1>
         <p>
           Explore my collection of drone and digital albums,<br />
-          showcasing stunning landscapes from North America, Europe, Asia, and Africa.<br />
-          Thorugh my lens, I find joy in documenting the world I see,<br />
-          preserving these moments as lasting memories.<br />
-          <br />All photos remain unedited to present the most authentic, original view.<br />
+          capturing stunning landscapes across North America, Europe, Asia, and Africa.<br />
+          Through my lens, I find joy in documenting the world as I see it,<br />
+          preserving these moment as a lasting memory.<br />
+          <br />All photos are unedited to showcase their most authentic, natural view.<br />
           I hope you enjoy this visual journey!
         </p>
       </div>
