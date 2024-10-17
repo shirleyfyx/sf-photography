@@ -1,17 +1,25 @@
 import React from 'react';
+import { motion } from 'framer-motion'; 
 import '../styles/CoverPage.css';
-import useFadeOut from '../components/useFadeOut';
+import useFadeOut from '../components/useFadeOut'; 
 
 const CoverPage: React.FC = () => {
-  const { fadeOut, triggerFadeOut } = useFadeOut('/home', 1000);
+  const { fadeOut, triggerFadeOut } = useFadeOut('/sf-photography/welcome', 1000);
 
   return (
-    <div className={`coverpage ${fadeOut ? 'fade-out' : ''}`}>
+    <motion.div
+      className={`coverpage ${fadeOut ? 'fade-out' : ''}`}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1 }} 
+    >
       <h1 className="title">Shirley Fang</h1>
       <div className="enter" onClick={triggerFadeOut}>
         Enter <span className="arrow">→</span>
       </div>
-    </div>
+
+    </motion.div>
   );
 };
 

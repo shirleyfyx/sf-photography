@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import CoverPage from './pages/CoverPage';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import HomePage from './pages/HomePage';
+import WelcomePage from './pages/WelcomePage';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,8 +14,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<CoverPage />} />
-        <Route path="/home" element={<HomePage />} />
+        <Route path="/sf-photography" element={<CoverPage />} />
+        <Route path="/sf-photography/welcome" element={<WelcomePage />} />
         <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
     </BrowserRouter>
