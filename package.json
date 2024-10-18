@@ -1,7 +1,7 @@
 {
-  "name": "about-me",
-  "homepage": "https://shirleyfang.github.io",
-  "version": "0.1.0",
+  "name": "sf-photography",
+  "homepage": "https://shirleyfyx.github.io/sf-photography",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

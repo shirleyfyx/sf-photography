@@ -14,12 +14,12 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/sf-photography">
       <Routes>
-        <Route path="/sf-photography" element={<CoverPage />} />
-        <Route path="/sf-photography/welcome" element={<WelcomePage />} />
-        <Route path="/sf-photography/drone" element={<DronePage />} />
-        <Route path="/sf-photography/digital" element={<DigitalPage />} />
+        <Route path="/" element={<CoverPage />} />
+        <Route path="/welcome" element={<WelcomePage />} />
+        <Route path="/drone" element={<DronePage />} />
+        <Route path="/digital" element={<DigitalPage />} />
         <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
     </BrowserRouter>
