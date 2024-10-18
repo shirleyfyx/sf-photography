@@ -41,6 +41,19 @@ import DigitalImage34 from '../assets/digital-photos/digital-photo34.jpg';
 import DigitalImage35 from '../assets/digital-photos/digital-photo35.jpg';
 import DigitalImage36 from '../assets/digital-photos/digital-photo36.jpg';
 import DigitalImage37 from '../assets/digital-photos/digital-photo37.jpg';
+import DigitalImage38 from '../assets/digital-photos/digital-photo38.jpg';
+import DigitalImage39 from '../assets/digital-photos/digital-photo39.jpg';
+import DigitalImage40 from '../assets/digital-photos/digital-photo40.jpg';
+import DigitalImage41 from '../assets/digital-photos/digital-photo41.jpg';
+import DigitalImage42 from '../assets/digital-photos/digital-photo42.jpg';
+import DigitalImage43 from '../assets/digital-photos/digital-photo43.jpg';
+import DigitalImage44 from '../assets/digital-photos/digital-photo44.jpg';
+import DigitalImage45 from '../assets/digital-photos/digital-photo45.jpg';
+import DigitalImage46 from '../assets/digital-photos/digital-photo46.jpg';
+import DigitalImage47 from '../assets/digital-photos/digital-photo47.jpg';
+import DigitalImage48 from '../assets/digital-photos/digital-photo48.jpg';
+import DigitalImage49 from '../assets/digital-photos/digital-photo49.jpg';
+import DigitalImage50 from '../assets/digital-photos/digital-photo50.jpg';
 
 const DigitalPage: React.FC = () => {
   const { fadeOut } = useFadeOut('/sf-photography', 1000); 
@@ -65,13 +78,29 @@ const DigitalPage: React.FC = () => {
       <img src={DigitalImage35} alt="cat" className="digital-portrait-image" />
       <img src={DigitalImage31} alt="cat" className="digital-portrait-image" />
 
-      <img src={DigitalImage6} alt="cat" className="digital-portrait-image" />
+      <img src={DigitalImage44} alt="cat" className="digital-portrait-image" />
       <img src={DigitalImage4} alt="cat" className="digital-portrait-image" />
+      <img src={DigitalImage39} alt="cat" className="digital-portrait-image" />
+
+      <img src={DigitalImage20} alt="cat" className="digital-portrait-image" />
+      <img src={DigitalImage41} alt="cat" className="digital-portrait-image" />
+      <img src={DigitalImage38} alt="cat" className="digital-portrait-image" />
+
+      <img src={DigitalImage40} alt="cat" className="digital-portrait-image" />
+      <img src={DigitalImage42} alt="cat" className="digital-portrait-image" />
+      <img src={DigitalImage43} alt="cat" className="digital-portrait-image" />
+
+      <img src={DigitalImage6} alt="cat" className="digital-portrait-image" />
+      <img src={DigitalImage32} alt="cat" className="digital-portrait-image" />
       <img src={DigitalImage5} alt="cat" className="digital-portrait-image" />
 
       <img src={DigitalImage11} alt="cat" className="digital-portrait-image" />
       <img src={DigitalImage12} alt="cat" className="digital-portrait-image" />
       <img src={DigitalImage7} alt="cat" className="digital-portrait-image" />
+
+      <img src={DigitalImage46} alt="cat" className="digital-portrait-image" />
+      <img src={DigitalImage47} alt="cat" className="digital-portrait-image" />
+      <img src={DigitalImage45} alt="cat" className="digital-portrait-image" />
       
       <img src={DigitalImage8} alt="cat" className="digital-portrait-image" />
       <img src={DigitalImage9} alt="cat" className="digital-portrait-image" />
@@ -81,7 +110,6 @@ const DigitalPage: React.FC = () => {
       <img src={DigitalImage17} alt="cat" className="digital-portrait-image" />
       <img src={DigitalImage18} alt="cat" className="digital-portrait-image" />
 
-      
       <img src={DigitalImage36} alt="cat" className="digital-portrait-image" />
       <img src={DigitalImage34} alt="cat" className="digital-portrait-image" />
       <img src={DigitalImage33} alt="cat" className="digital-portrait-image" />
@@ -103,10 +131,11 @@ const DigitalPage: React.FC = () => {
       <img src={DigitalImage23} alt="cat" className="digital-portrait-image" />
 
       <img src={DigitalImage26} alt="cat" className="digital-portrait-image" />
-      <img src={DigitalImage32} alt="cat" className="digital-portrait-image" />
-      <img src={DigitalImage20} alt="cat" className="digital-portrait-image" />
-
-      {/* <img src={DigitalImage37} alt="cat" className="digital-portrait-image" /> */}
+      <img src={DigitalImage37} alt="cat" className="digital-portrait-image" />
+      <img src={DigitalImage50} alt="cat" className="digital-portrait-image" />
+{/* 
+      <img src={DigitalImage49} alt="cat" className="digital-portrait-image" />
+      <img src={DigitalImage48} alt="cat" className="digital-portrait-image" /> */}
 
       </div>
     </motion.div>
