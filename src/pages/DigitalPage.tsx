@@ -73,73 +73,73 @@ const DigitalPage: React.FC = () => {
       
       <div className="image-container">
 
-      <img src={DigitalImage1} alt="cat" className="digital-portrait-image" />
-      <img src={DigitalImage3} alt="geese" className="digital-portrait-image" />
-      <img src={DigitalImage2} alt="car" className="digital-portrait-image" />
+      <img src={DigitalImage1} alt="cat" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage3} alt="geese" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage2} alt="car" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage25} alt="pyramid" className="digital-portrait-image" />
-      <img src={DigitalImage35} alt="temple" className="digital-portrait-image" />
-      <img src={DigitalImage31} alt="statue" className="digital-portrait-image" />
+      <img src={DigitalImage25} alt="pyramid" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage35} alt="temple" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage31} alt="statue" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage44} alt="band" className="digital-portrait-image" />
-      <img src={DigitalImage4} alt="castle" className="digital-portrait-image" />
-      <img src={DigitalImage39} alt="church" className="digital-portrait-image" />
+      <img src={DigitalImage44} alt="band" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage4} alt="castle" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage39} alt="church" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage20} alt="sunset" className="digital-portrait-image" />
-      <img src={DigitalImage41} alt="tower" className="digital-portrait-image" />
-      <img src={DigitalImage38} alt="tree" className="digital-portrait-image" />
+      <img src={DigitalImage20} alt="sunset" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage41} alt="tower" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage38} alt="tree" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage40} alt="train-window" className="digital-portrait-image" />
-      <img src={DigitalImage42} alt="crystalball" className="digital-portrait-image" />
-      <img src={DigitalImage43} alt="summit" className="digital-portrait-image" />
+      <img src={DigitalImage40} alt="train-window" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage42} alt="crystalball" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage43} alt="summit" className="digital-portrait-image" loading="lazy"/>
             
-      <img src={DigitalImage49} alt="man-with-sheep" className="digital-portrait-image" />
-      <img src={DigitalImage52} alt="pavilion" className="digital-portrait-image" />
-      <img src={DigitalImage51} alt="back" className="digital-portrait-image" />
+      <img src={DigitalImage49} alt="man-with-sheep" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage52} alt="pavilion" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage51} alt="back" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage6} alt="vangogh" className="digital-portrait-image" />
-      <img src={DigitalImage32} alt="restaurant" className="digital-portrait-image" />
-      <img src={DigitalImage5} alt="building" className="digital-portrait-image" />
+      <img src={DigitalImage6} alt="vangogh" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage32} alt="restaurant" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage5} alt="building" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage11} alt="snail" className="digital-portrait-image" />
-      <img src={DigitalImage12} alt="angry-goose" className="digital-portrait-image" />
-      <img src={DigitalImage7} alt="hare" className="digital-portrait-image" />
+      <img src={DigitalImage11} alt="snail" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage12} alt="angry-goose" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage7} alt="hare" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage46} alt="paris" className="digital-portrait-image" />
-      <img src={DigitalImage47} alt="bridge" className="digital-portrait-image" />
-      <img src={DigitalImage45} alt="ceiling" className="digital-portrait-image" />
+      <img src={DigitalImage46} alt="paris" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage47} alt="bridge" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage45} alt="ceiling" className="digital-portrait-image" loading="lazy"/>
       
-      <img src={DigitalImage8} alt="yellow-tree" className="digital-portrait-image" />
-      <img src={DigitalImage9} alt="library" className="digital-portrait-image" />
-      <img src={DigitalImage10} alt="red-tree" className="digital-portrait-image" />
+      <img src={DigitalImage8} alt="yellow-tree" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage9} alt="library" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage10} alt="red-tree" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage16} alt="afternoon" className="digital-portrait-image" />
-      <img src={DigitalImage17} alt="morning" className="digital-portrait-image" />
-      <img src={DigitalImage18} alt="night" className="digital-portrait-image" />
+      <img src={DigitalImage16} alt="afternoon" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage17} alt="morning" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage18} alt="night" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage36} alt="roofs1" className="digital-portrait-image" />
-      <img src={DigitalImage34} alt="window" className="digital-portrait-image" />
-      <img src={DigitalImage33} alt="roofs2" className="digital-portrait-image" />
+      <img src={DigitalImage36} alt="roofs1" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage34} alt="window" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage33} alt="roofs2" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage13} alt="plane1" className="digital-portrait-image" />
-      <img src={DigitalImage14} alt="plane2" className="digital-portrait-image" />
-      <img src={DigitalImage15} alt="plane3" className="digital-portrait-image" />
+      <img src={DigitalImage13} alt="plane1" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage14} alt="plane2" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage15} alt="plane3" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage30} alt="valley" className="digital-portrait-image" />
-      <img src={DigitalImage29} alt="flower1" className="digital-portrait-image" />
-      <img src={DigitalImage21} alt="aurora" className="digital-portrait-image" />
+      <img src={DigitalImage30} alt="valley" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage29} alt="flower1" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage21} alt="aurora" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage22} alt="frog" className="digital-portrait-image" />
-      <img src={DigitalImage28} alt="red-leaf" className="digital-portrait-image" />
-      <img src={DigitalImage19} alt="dragon" className="digital-portrait-image" />
+      <img src={DigitalImage22} alt="frog" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage28} alt="red-leaf" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage19} alt="dragon" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage24} alt="research-center1" className="digital-portrait-image" />
-      <img src={DigitalImage27} alt="flower2" className="digital-portrait-image" />
-      <img src={DigitalImage23} alt="research-center2" className="digital-portrait-image" />
+      <img src={DigitalImage24} alt="research-center1" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage27} alt="flower2" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage23} alt="research-center2" className="digital-portrait-image" loading="lazy"/>
 
-      <img src={DigitalImage26} alt="sushi" className="digital-portrait-image" />
-      <img src={DigitalImage37} alt="strawberries" className="digital-portrait-image" />
-      <img src={DigitalImage50} alt="tomatoes" className="digital-portrait-image" />
+      <img src={DigitalImage26} alt="sushi" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage37} alt="strawberries" className="digital-portrait-image" loading="lazy"/>
+      <img src={DigitalImage50} alt="tomatoes" className="digital-portrait-image" loading="lazy"/>
 
       </div>
     </motion.div>

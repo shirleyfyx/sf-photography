@@ -23,7 +23,7 @@ const WelcomePage: React.FC = () => {
       <Sidebar />
       
       <div className="content-container">
-        <img src={WelcomeImage} alt="welcome-image" className="welcome-image" />
+        <img src={WelcomeImage} alt="welcome-image" className="welcome-image" loading="lazy"/>
         <h1>Welcome to Shirley's Photography Galleries!</h1>
         <p>
           Explore my collection of drone and digital albums,<br />

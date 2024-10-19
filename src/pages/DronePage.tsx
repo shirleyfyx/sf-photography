@@ -34,32 +34,32 @@ const DronePage: React.FC = () => {
       <Header />
       <Sidebar />
       <div className="image-container">
-        <img src={DroneImage1} alt="pagoda" className="drone-image" />
+        <img src={DroneImage1} alt="pagoda" className="drone-image" loading="lazy"/>
         <p className='details'>
           - Yangzhou, China, 2023
         </p>
-        <img src={DroneImage2} alt="traditional-street1" className="portrait-image" />
-        <img src={DroneImage3} alt="traditional-street2" className="portrait-image" />
-        <img src={DroneImage4} alt="traditional-street3" className="portrait-image" />
-        <img src={DroneImage5} alt="traditional-street4" className="portrait-image" />
-        <img src={DroneImage6} alt="traditional-street5" className="drone-image" />
+        <img src={DroneImage2} alt="traditional-street1" className="portrait-image" loading="lazy"/>
+        <img src={DroneImage3} alt="traditional-street2" className="portrait-image" loading="lazy"/>
+        <img src={DroneImage4} alt="traditional-street3" className="portrait-image" loading="lazy"/>
+        <img src={DroneImage5} alt="traditional-street4" className="portrait-image" loading="lazy"/>
+        <img src={DroneImage6} alt="traditional-street5" className="drone-image" loading="lazy"/>
         <p className='details'>
           - Quanzhou, China, 2024
         </p>
-        <img src={DroneImage7} alt="Canada-fall-view1" className="drone-image" />
-        <img src={DroneImage8} alt="Canada-fall-view2" className="drone-image" />
+        <img src={DroneImage7} alt="Canada-fall-view1" className="drone-image" loading="lazy"/>
+        <img src={DroneImage8} alt="Canada-fall-view2" className="drone-image" loading="lazy"/>
         <p className='details'>
           - Waterloo, Canada, 2024
         </p>
-        <img src={DroneImage9} alt="UWaterloo-night-view" className="drone-image" />
+        <img src={DroneImage9} alt="UWaterloo-night-view" className="drone-image" loading="lazy"/>
         <p className='details'>
           - University of Waterloo, Canada, 2023
         </p>
-        <img src={DroneImage10} alt="villa" className="drone-image" />
-        <img src={DroneImage11} alt="museum" className="drone-image" />
-        <img src={DroneImage12} alt="corssroad" className="drone-image" />
-        <img src={DroneImage13} alt="history-now" className="portrait-image" />
-        <img src={DroneImage14} alt="only-now" className="portrait-image" />
+        <img src={DroneImage10} alt="villa" className="drone-image" loading="lazy"/>
+        <img src={DroneImage11} alt="museum" className="drone-image" loading="lazy"/>
+        <img src={DroneImage12} alt="corssroad" className="drone-image" loading="lazy"/>
+        <img src={DroneImage13} alt="history-now" className="portrait-image" loading="lazy"/>
+        <img src={DroneImage14} alt="only-now" className="portrait-image" loading="lazy"/>
         <p className='details'>
           - Nanjing, China, 2023
         </p>
