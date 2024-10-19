@@ -1,12 +1,14 @@
 .welcomepage {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #FAF0E6;
     opacity: 1;
     transition: opacity 0.8s ease-in-out;
     padding-left: 18vw;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+    overflow-y: visible;
 }
   
 .welcomepage.fade-out {
@@ -19,8 +21,9 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: calc(100vw - 30vw); 
+    width: calc(100vw - 22vw); 
     padding-top: 120px; 
+    flex-grow: 1;
 }
 
 .welcome-image {

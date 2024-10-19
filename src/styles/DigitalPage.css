@@ -1,12 +1,13 @@
 .digitalpage {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #FAF0E6;
     opacity: 1;
     transition: opacity 0.8s ease-in-out;
     padding-left: 18vw;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+    overflow-x: hidden;
 }
   
 .digitalpage.fade-out {

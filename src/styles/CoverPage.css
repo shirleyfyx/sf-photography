@@ -22,7 +22,7 @@
     background-position: center; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
-    overflow: hidden;
+    overflow-x: hidden;
     transition: opacity 0.5s ease-in-out; /* Smooth fade-out transition */
     opacity: 1;
 }
