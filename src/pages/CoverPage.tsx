@@ -4,13 +4,13 @@ import '../styles/CoverPage.css';
 import useFadeOut from '../components/useFadeOut'; 
 
 const CoverPage: React.FC = () => {
-  const { fadeOut, triggerFadeOut } = useFadeOut('/sf-photography/welcome', 1000);
+  const { fadeOut, triggerFadeOut } = useFadeOut('/welcome', 1000);
 
   return (
     <motion.div
       className={`coverpage ${fadeOut ? 'fade-out' : ''}`}
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      animate={{ opacity: 1.5 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1 }} 
     >

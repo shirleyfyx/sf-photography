@@ -63,10 +63,10 @@ const DigitalPage: React.FC = () => {
   return (
     <motion.div
       className={`digitalpage ${fadeOut ? 'fade-out' : ''}`}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1.4 }}
+      initial={{ opacity: 0, scale: 0.99 }}   
+      animate={{ opacity: 1, scale: 1 }}     
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.8 }} 
+      transition={{ duration: 2 }}  
     >
       <Header />
       <Sidebar />

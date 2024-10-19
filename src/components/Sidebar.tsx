@@ -8,13 +8,13 @@ const Sidebar: React.FC = () => {
       <ul>
         <li>
           <Link
-            to="/sf-photography/">
+            to="/">
             Home
           </Link>
         </li>
         <li>
           <NavLink 
-            to="/sf-photography/welcome" 
+            to="/welcome" 
             className={({ isActive }) => isActive ? "active-link" : ""}
           >
             Welcome
@@ -22,7 +22,7 @@ const Sidebar: React.FC = () => {
         </li>
         <li>
           <NavLink 
-            to="/sf-photography/drone" 
+            to="/drone" 
             className={({ isActive }) => isActive ? "active-link" : ""}
           >
             Drone Albums
@@ -30,7 +30,7 @@ const Sidebar: React.FC = () => {
         </li>
         <li>
           <NavLink 
-            to="/sf-photography/digital" 
+            to="/digital" 
             className={({ isActive }) => isActive ? "active-link" : ""}
           >
             Digital Albums

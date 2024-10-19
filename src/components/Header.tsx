@@ -7,7 +7,7 @@ const Header: React.FC = () => {
 
   const handleAboutMeClick = () => {
     console.log("Navigating to the 'About Me' page.");
-    navigate('/sf-photography'); 
+    navigate('/'); 
   };
 
   return (
