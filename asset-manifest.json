@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sf-photography/static/css/main.5fc52285.css",
-    "main.js": "/sf-photography/static/js/main.39c1b281.js",
+    "main.js": "/sf-photography/static/js/main.37b066c3.js",
     "static/js/453.cd0b2740.chunk.js": "/sf-photography/static/js/453.cd0b2740.chunk.js",
     "static/media/welcom_photo.jpg": "/sf-photography/static/media/welcom_photo.914c4f611f4cccb6842d.jpg",
     "static/media/drone-photo7.jpg": "/sf-photography/static/media/drone-photo7.4a4e40c30f2762dadb5c.jpg",
@@ -72,11 +72,11 @@
     "static/media/digital-photo4.jpg": "/sf-photography/static/media/digital-photo4.c4ad268af3717cd9985d.jpg",
     "index.html": "/sf-photography/index.html",
     "main.5fc52285.css.map": "/sf-photography/static/css/main.5fc52285.css.map",
-    "main.39c1b281.js.map": "/sf-photography/static/js/main.39c1b281.js.map",
+    "main.37b066c3.js.map": "/sf-photography/static/js/main.37b066c3.js.map",
     "453.cd0b2740.chunk.js.map": "/sf-photography/static/js/453.cd0b2740.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fc52285.css",
-    "static/js/main.39c1b281.js"
+    "static/js/main.37b066c3.js"
   ]
 }
