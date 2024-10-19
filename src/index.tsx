@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import CoverPage from './pages/CoverPage';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import WelcomePage from './pages/WelcomePage';
-import DronePage from './pages/DronePage';
-import DigitalPage from './pages/DigitalPage';
+
+const WelcomePage = React.lazy(() => import('./pages/WelcomePage'));
+const DronePage = React.lazy(() => import('./pages/DronePage'));
+const DigitalPage = React.lazy(() => import('./pages/DigitalPage'));
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,14 +15,15 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/sf-photography">
-      <Routes>
-        <Route path="/" element={<CoverPage />} />
-        <Route path="/welcome" element={<WelcomePage />} />
-        <Route path="/drone" element={<DronePage />} />
-        <Route path="/digital" element={<DigitalPage />} />
-        <Route path="*" element={<h1>Page Not Found</h1>} />
-      </Routes>
+    <BrowserRouter basename='/sf-photography'>
+      <Suspense fallback={<div> </div>}>
+        <Routes>
+          <Route path="/" element={<CoverPage />} />
+          <Route path="/welcome" element={<WelcomePage />} />
+          <Route path="/drone" element={<DronePage />} />
+          <Route path="/digital" element={<DigitalPage />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   </React.StrictMode>
 );
