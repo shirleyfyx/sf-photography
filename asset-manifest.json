@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sf-photography/static/css/main.6dc55e13.css",
-    "main.js": "/sf-photography/static/js/main.4098358c.js",
-    "static/css/721.c8443ecb.chunk.css": "/sf-photography/static/css/721.c8443ecb.chunk.css",
-    "static/js/721.ffd9ca5a.chunk.js": "/sf-photography/static/js/721.ffd9ca5a.chunk.js",
-    "static/css/123.97e7acaa.chunk.css": "/sf-photography/static/css/123.97e7acaa.chunk.css",
-    "static/js/123.882d41bf.chunk.js": "/sf-photography/static/js/123.882d41bf.chunk.js",
-    "static/css/781.ee255874.chunk.css": "/sf-photography/static/css/781.ee255874.chunk.css",
-    "static/js/781.9bbaf027.chunk.js": "/sf-photography/static/js/781.9bbaf027.chunk.js",
+    "main.css": "/sf-photography/static/css/main.4480b7c2.css",
+    "main.js": "/sf-photography/static/js/main.37e1ec97.js",
+    "static/css/721.6d2067d2.chunk.css": "/sf-photography/static/css/721.6d2067d2.chunk.css",
+    "static/js/721.02921e85.chunk.js": "/sf-photography/static/js/721.02921e85.chunk.js",
+    "static/css/123.60bbd9ce.chunk.css": "/sf-photography/static/css/123.60bbd9ce.chunk.css",
+    "static/js/123.d7582845.chunk.js": "/sf-photography/static/js/123.d7582845.chunk.js",
+    "static/css/781.55d6b779.chunk.css": "/sf-photography/static/css/781.55d6b779.chunk.css",
+    "static/js/781.e816e3ed.chunk.js": "/sf-photography/static/js/781.e816e3ed.chunk.js",
     "static/js/453.cd0b2740.chunk.js": "/sf-photography/static/js/453.cd0b2740.chunk.js",
     "static/media/welcom_photo.jpg": "/sf-photography/static/media/welcom_photo.26e5410622a7f2a30a55.jpg",
     "static/media/digital-photo7.jpg": "/sf-photography/static/media/digital-photo7.985d0713502bcb20a759.jpg",
@@ -77,18 +77,18 @@
     "static/media/digital-photo43.jpg": "/sf-photography/static/media/digital-photo43.aa1909ffe531ecc760e3.jpg",
     "static/media/digital-photo4.jpg": "/sf-photography/static/media/digital-photo4.c4ad268af3717cd9985d.jpg",
     "index.html": "/sf-photography/index.html",
-    "main.6dc55e13.css.map": "/sf-photography/static/css/main.6dc55e13.css.map",
-    "main.4098358c.js.map": "/sf-photography/static/js/main.4098358c.js.map",
-    "721.c8443ecb.chunk.css.map": "/sf-photography/static/css/721.c8443ecb.chunk.css.map",
-    "721.ffd9ca5a.chunk.js.map": "/sf-photography/static/js/721.ffd9ca5a.chunk.js.map",
-    "123.97e7acaa.chunk.css.map": "/sf-photography/static/css/123.97e7acaa.chunk.css.map",
-    "123.882d41bf.chunk.js.map": "/sf-photography/static/js/123.882d41bf.chunk.js.map",
-    "781.ee255874.chunk.css.map": "/sf-photography/static/css/781.ee255874.chunk.css.map",
-    "781.9bbaf027.chunk.js.map": "/sf-photography/static/js/781.9bbaf027.chunk.js.map",
+    "main.4480b7c2.css.map": "/sf-photography/static/css/main.4480b7c2.css.map",
+    "main.37e1ec97.js.map": "/sf-photography/static/js/main.37e1ec97.js.map",
+    "721.6d2067d2.chunk.css.map": "/sf-photography/static/css/721.6d2067d2.chunk.css.map",
+    "721.02921e85.chunk.js.map": "/sf-photography/static/js/721.02921e85.chunk.js.map",
+    "123.60bbd9ce.chunk.css.map": "/sf-photography/static/css/123.60bbd9ce.chunk.css.map",
+    "123.d7582845.chunk.js.map": "/sf-photography/static/js/123.d7582845.chunk.js.map",
+    "781.55d6b779.chunk.css.map": "/sf-photography/static/css/781.55d6b779.chunk.css.map",
+    "781.e816e3ed.chunk.js.map": "/sf-photography/static/js/781.e816e3ed.chunk.js.map",
     "453.cd0b2740.chunk.js.map": "/sf-photography/static/js/453.cd0b2740.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dc55e13.css",
-    "static/js/main.4098358c.js"
+    "static/css/main.4480b7c2.css",
+    "static/js/main.37e1ec97.js"
   ]
 }
