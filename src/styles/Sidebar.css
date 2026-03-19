@@ -7,11 +7,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 150px;
+  padding-top: 220px;
   z-index: 100;
   background-color: #FAF0E6;
   user-select: none;
-  overflow-y: auto;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.sidebar-toggle {
+  display: none;
+}
+
+.sidebar-overlay {
+  display: none;
 }
 
 .sidebar ul {
@@ -30,11 +39,12 @@
 .sidebar a {
   color: #6e675e; 
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   transition: color 0.3s ease-in-out;
   display: block; 
   text-align: left;
   padding-left: 5vw; 
+  padding-right: 0;
   font-family: 'Times New Roman', serif;
 }
 
@@ -46,4 +56,82 @@
 .active-link {
   font-weight: bold; 
   color: #6e675e; 
+}
+
+@media (max-width: 480px) {
+  /* Mobile: navigation lives in the header, so hide the sidebar completely. */
+  .sidebar-toggle,
+  .sidebar-overlay,
+  .sidebar {
+    display: none !important;
+  }
+
+  .sidebar-toggle {
+    display: flex;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 110;
+    width: 34px;
+    height: 34px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .sidebar-toggle-bar {
+    display: block;
+    width: 6px;
+    height: 7px;
+    background-color: #6e675e;
+    border-radius: 3px;
+    margin: 2px 0;
+  }
+
+  .sidebar-overlay {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 105px; /* keep header + about-me bar visible */
+    bottom: 0;
+    z-index: 105;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .sidebar {
+    width: 70vw;
+    max-width: 280px;
+    height: calc(100vh - 105px);
+    padding-top: 20px;
+    top: 105px; /* below your fixed header + about-me bar */
+    left: 0;
+    transform: translateX(-110%);
+    transition: transform 0.22s ease-in-out;
+    z-index: 106;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .sidebar--open {
+    transform: translateX(0);
+  }
+
+  .sidebar ul {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sidebar a {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.3rem;
+  }
 }

@@ -57,16 +57,16 @@ import DigitalImage50 from '../assets/digital-photos/digital-photo50.jpg';
 import DigitalImage51 from '../assets/digital-photos/digital-photo51.jpg';
 import DigitalImage52 from '../assets/digital-photos/digital-photo52.jpg';
 
-const DigitalPage: React.FC = () => {
+const IphonePage: React.FC = () => {
   const { fadeOut } = useFadeOut('/sf-photography', 1000); 
 
   return (
     <motion.div
       className={`digitalpage ${fadeOut ? 'fade-out' : ''}`}
-      initial={{ opacity: 0, scale: 0.99 }}   
-      animate={{ opacity: 1, scale: 1 }}     
+      initial={{ opacity: 0 }}   
+      animate={{ opacity: 1 }}     
       exit={{ opacity: 0 }}
-      transition={{ duration: 2 }}  
+      transition={{ duration: 0.8 }}  
     >
       <Header />
       <Sidebar />
@@ -146,4 +146,4 @@ const DigitalPage: React.FC = () => {
   );
 };
 
-export default DigitalPage;
+export default IphonePage;

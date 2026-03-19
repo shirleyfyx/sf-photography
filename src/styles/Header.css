@@ -4,11 +4,7 @@
     justify-content: flex-start;
     padding: 0px 20px;
     margin-bottom: 10px;
-    position:fixed;
     width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 100;
     background-color: #FAF0E6;
 }
   
@@ -16,10 +12,12 @@
     display: flex;
     align-items: center;
     color: #887f74; 
-    font-size:3rem; 
+    font-size:4rem; 
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
     padding: 15px;
-    padding-left:75vw;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 155px;
     user-select: none;
     font-family: 'Times New Roman', serif;
 }
@@ -28,4 +26,83 @@
     color: #37291a; 
     transform: scale(1.02); 
     cursor: pointer;
+}
+
+.about-me-mobile {
+    display: none;
+}
+
+.header-nav {
+    display: none;
+}
+
+.header-link {
+    color: #6e675e;
+    text-decoration: none;
+    font-family: 'Times New Roman', serif;
+    font-size: 1.25rem;
+    padding: 6px 10px;
+    white-space: nowrap;
+    border-radius: 8px;
+}
+
+.header-link--active {
+    font-weight: bold;
+    color: #37291a;
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 0 10px;
+        height: 60px;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    .about-me--desktop {
+        display: flex;
+        font-size: 1.6rem;
+        position: absolute;
+        right: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 0;
+        padding: 0;
+        order: 2; /* keep logical order, though position is absolute */
+    }
+
+    .header-nav {
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        order: 1;
+        justify-content: space-evenly;
+        padding-left: 0;
+        padding-right: 120px; /* prevent overlap with the fixed "about me" on the right */
+        width: 100%;
+    }
+
+    .about-me-mobile {
+        display: none;
+    }
+
+    .about-me-mobile:hover {
+        color: #37291a;
+        transform: scale(1.02);
+    }
+}
+
+@media (max-width: 400px) {
+    .about-me--desktop {
+        font-size: 1.25rem;
+        right: 18px;
+    }
+
+    .header-link {
+        font-size: 1.05rem;
+        padding: 6px 8px;
+    }
 }

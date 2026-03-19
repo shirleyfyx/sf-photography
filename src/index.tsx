@@ -7,7 +7,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 const WelcomePage = React.lazy(() => import('./pages/WelcomePage'));
 const DronePage = React.lazy(() => import('./pages/DronePage'));
-const DigitalPage = React.lazy(() => import('./pages/DigitalPage'));
+const IphonePage = React.lazy(() => import('./pages/DigitalPage'));
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -21,7 +21,7 @@ root.render(
           <Route path="/" element={<CoverPage />} />
           <Route path="/welcome" element={<WelcomePage />} />
           <Route path="/drone" element={<DronePage />} />
-          <Route path="/digital" element={<DigitalPage />} />
+          <Route path="/digital" element={<IphonePage />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

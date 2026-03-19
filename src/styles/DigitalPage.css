@@ -23,7 +23,7 @@
     justify-content: center;
     margin: 0 auto;
     width: calc(100vw - 30vw); 
-    padding-top: 120px; 
+    padding-top: 60px; 
 }
 
 .digital-image {
@@ -58,4 +58,30 @@
     max-width: 85%; 
     width: 100%; 
     font-size: 15px;
+}
+
+@media (max-width: 480px) {
+    .digitalpage {
+        padding-left: 0;
+    }
+
+    .image-container {
+        width: 100%;
+        padding-top: 120px;
+    }
+
+    .digital-portrait-image {
+        width: 90%;
+        margin-inline-start: 0;
+    }
+
+    .details {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 400px) {
+    .image-container {
+        padding-top: 140px;
+    }
 }

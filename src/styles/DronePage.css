@@ -23,7 +23,7 @@
     justify-content: center;
     margin: 0 auto;
     width: calc(100vw - 30vw); 
-    padding-top: 120px; 
+    padding-top: 60px; 
 }
 
 .drone-image {
@@ -52,4 +52,28 @@
     max-width: 85%; 
     width: 100%; 
     font-size: 15px;
+}
+
+@media (max-width: 480px) {
+    .dronepage {
+        padding-left: 0;
+    }
+
+    .image-container {
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    .drone-image {
+        max-width: 95%;
+    }
+
+    .portrait-image {
+        width: 90%;
+        margin-inline-start: 0;
+    }
+
+    .details {
+        max-width: 95%;
+    }
 }

@@ -12,10 +12,10 @@ const WelcomePage: React.FC = () => {
   return (
     <motion.div
       className={`welcomepage ${fadeOut ? 'fade-out' : ''}`}
-      initial={{ opacity: 0, scale: 0.99 }}   
-      animate={{ opacity: 1, scale: 1 }}     
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 2 }}    
+      transition={{ duration: 0.8 }}
     >
       
       <Header />
@@ -24,14 +24,16 @@ const WelcomePage: React.FC = () => {
       
       <div className="content-container">
         <img src={WelcomeImage} alt="welcome-image" className="welcome-image" loading="lazy"/>
-        <h1>Welcome to Shirley's Photography Galleries!</h1>
+        <h1>Welcome!</h1>
         <p>
           Explore my collection of drone and digital albums,<br />
           capturing stunning landscapes across North America, Europe, Asia, and Africa.<br />
           Through my lens, I find joy in documenting the world as I see it,<br />
           preserving these moment as a lasting memory.<br />
-          <br />All photos are unedited to showcase their most authentic, natural view.<br />
-          I hope you enjoy this visual journey!
+          <br></br>
+          I hope you enjoy this visual journey.
+          <br></br>
+          <br />For the best viewing experience, I recommend exploring the photos on a laptop or desktop.<br />
         </p>
       </div>
     </motion.div>
